@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    
     font-family: 'Noto Sans JP', sans-serif;
 }
 .navbar{
@@ -58,6 +59,7 @@ p{
     padding: 50px 0;
 }
 .col-2 h1{
+    color:white;
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
@@ -79,16 +81,21 @@ p{
 }
 
 .header{
-    background: radial-gradient(#fff, #ffd6d6);
+   background-color: black;
 }
 .header .row{
     margin-top: 70px;
+    background-color: black;
 
 }
 .categories{
     margin: 70px 0;
-
+    justify-content: space-between;
+    margin: 100px auto 50px;
 }
+
+
+
 .col-3{
     flex-basis: 25%;
     padding: 10px;
@@ -155,7 +162,9 @@ h4{
     transform: translateY(-5px);
 }
 
-
+#descuentoPrimerCompra{
+    color: black;
+}
 /* Seccion de Ofertas */
 .offer{
     background: radial-gradient(#fff,#ffd6d6) ;
