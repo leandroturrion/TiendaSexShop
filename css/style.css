@@ -344,6 +344,18 @@ select:focus{
      
  }
 
+ /* categoria disfraz, bdsm, lubricantes y dildos*/
+ #contenedorCatGrande{
+     margin-top: 20px;
+     margin-left: 100px;
+     margin-right: 100px;
+     align-items: center;
+     
+ }
+ #bodyCat{
+     background: black;
+ }
+
  /*detalle de prodcuto padreeeeeee*/
 .single-product{
     margin-top: 80px;
@@ -539,14 +551,6 @@ form a{
     transform:translateX(100px) ;
     transition: transform 1s;
 }
-
-
-
-
-
-
-
-
 
 
 
