@@ -239,73 +239,62 @@ small{
     filter: grayscale(0);
 }
 
-/*_____________foooterrrrrrrrr _______*/
+/*FOOTEEEEEEEEEEEEEEEEEEEEEEEEEEER R R R R R R R R */
 
-.footer{
-    background: #000;
-    color: #8a8a8a;
-    font-size: 14px;
-    padding: 60px 0 20px;
-}
-.footer p{
-    color: #8a8a8a;
 
+.fa-facebook:before {
+  content: "\f09a";
 }
-.footer h3{
-    color: #fff;
-    margin-bottom: 20px;
-}
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
-    min-width: 250px;
-    margin-bottom: 20px;
 
+.fa-twitter:before {
+  content: "\f099";
 }
-.footer-col-1{
-    flex-basis: 30%;
 
+.fa-instagram:before {
+  content: "\f16d";
 }
-.footer-col-2{
-    flex: 1;
-    text-align: center;
-    
-}
-.footer-col-2 img{
-    width: 180px;
-    margin-bottom: 20px;
-}
-.footer-col-3, .footer-col-4{
-    flex-basis: 12%;
-    text-align: center;
 
-}
-ul{
-    list-style-type: none;
 
+.footer-top .social {
+  position: center;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.footer hr{
-    border: none;
-    background: #b5b5b5;
-    height: 1px;
-    margin: 20px 0;
+.footer-top .social .social-icons {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  
+}
+.footer-top .social .social-icons li {
+  display: inline-block;
+  width: 40px;
+  border-radius: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px;
+}
 
+.footer-top .social .social-icons li a {
+  color: #fff;
+  
 }
-.fa-whatsapp:before{
-    color: green;
-}
-.fa-facebook:before{
-    color: rgb(14, 18, 226);
-    font-size: 20px;
-}
-.fa-twitter:before{
-    color: rgb(0, 217, 255);
-}
-.copyright{
-    text-align: center;
 
+.footer-top .social .social-icons li.facebook {
+  background-color: #507bbe;
 }
-.menu-icon{
-    width: 28px;
-    margin-left:20px;    
+
+.footer-top .social .social-icons li.twitter {
+  background-color: #64ccef;
+}
+
+
+.footer-top .social .social-icons li.instagram {
+  background-color: #a236b7;
 }
 
 /* seccion de todos los prodcutos*/
@@ -347,14 +336,20 @@ select:focus{
  /* categoria disfraz, bdsm, lubricantes y dildos*/
  #contenedorCatGrande{
      margin-top: 20px;
-     margin-left: 100px;
-     margin-right: 100px;
+     margin-left: 200px;
+     margin-right: 200px;
      align-items: center;
      
  }
  #bodyCat{
      background: black;
  }
+#imgCat{
+    margin: auto;
+}
+#imgCat:hover {
+    filter: saturate(180%);
+}
 
  /*detalle de prodcuto padreeeeeee*/
 .single-product{
